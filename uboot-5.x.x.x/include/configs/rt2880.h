@@ -33,6 +33,7 @@
 //#define DEBUG				1
 //#define ET_DEBUG
 #define CONFIG_RT2880_ETH		1	/* Enable built-in 10/100 Ethernet */
+#define RT3052_MP2  1
 
 //#define CONFIG_CMD_HISTORY
 
