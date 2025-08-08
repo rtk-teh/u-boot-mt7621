@@ -12,8 +12,8 @@ CONFIG_BOOTFILE=firmware.bin
 CFG_ENV_IS_IN_SPI=y
 # DEBUG_BUILD is not set
 # CONFIG_MIPS16_ASE is not set
-CONFIG_BAUDRATE_115200=y
-# CONFIG_BAUDRATE_57600 is not set
+# CONFIG_BAUDRATE_115200 is not set
+CONFIG_BAUDRATE_57600=y
 ON_BOARD_SPI_FLASH_COMPONENT=y
 # ON_BOARD_8M_FLASH_COMPONENT is not set
 # ON_BOARD_8M_FLASH_COMPONENT is not set
@@ -25,7 +25,7 @@ SPI_FLASH_READ_DOR=y
 SPI_FLASH_READ_QOR=y
 CFG_ENV_IS_NOWHERE=y
 CONFIG_BOOTDELAY=1
-CONFIG_BOOTARGS="console=ttyS1,115200 root=/dev/mtdblock2 rootfstype=squashfs init=/etc/preinit mtdparts=raspi:256k(uboot),4096k(uImage),11968k@0x440000(rootfs),64k@0xff0000(ART) mem=256M test_mode=disable"
+CONFIG_BOOTARGS="console=ttyS1,57600 root=/dev/mtdblock2 rootfstype=squashfs init=/etc/preinit mtdparts=raspi:256k(uboot),4096k(uImage),11968k@0x440000(rootfs),64k@0xff0000(ART) mem=128M test_mode=disable"
 CONFIG_SERVERIP="192.168.1.2"
 CONFIG_NETMASK="255.255.255.0"
 CONFIG_IPADDR="192.168.1.1"
@@ -66,7 +66,7 @@ TFTP_SUPPORT=y
 RALINK_CMDLINE=y
 # RALINK_UPGRADE_BY_SERIAL is not set
 # USB_RECOVERY_SUPPORT is not set
-GPIO_BTN_RESET=-1
+GPIO_BTN_RESET=10
 GPIO_BTN_WPS=10
 GPIO_BTN_WLTOG=-1
 GPIO_BTN_ROUTER=-1
