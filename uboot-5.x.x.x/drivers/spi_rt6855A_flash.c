@@ -216,7 +216,7 @@ static const struct chip_info chips_data [] = {
 	{ "GD25Q64CSIG",      MF_ID_GIGADEVICE, 0x4017c840, 64 * 1024, 128, 0 },
 	{ "GD25Q128C",        MF_ID_GIGADEVICE, 0x40180000, 64 * 1024, 256, 0 },
 	{ "GD25Q128CSIG",     MF_ID_GIGADEVICE, 0x4018c840, 64 * 1024, 256, 0 },
-	{ "GD25Q256D",     MF_ID_GIGADEVICE, 0x4019c840, 64 * 1024, 512, 1 },
+	{ "GD25Q256D",     MF_ID_GIGADEVICE, 0x4019c840, 64 * 1024, 512, 0 },
 };
 
 static const struct chip_info dummy_chip_data[] = {
