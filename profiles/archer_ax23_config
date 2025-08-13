@@ -28,7 +28,7 @@ SPI_FLASH_READ_DOR=y
 SPI_FLASH_READ_QOR=y
 CFG_ENV_IS_NOWHERE=y
 CONFIG_BOOTDELAY=1
-CONFIG_BOOTARGS="console=ttyS1,57600 root=/dev/mtdblock2 rootfstype=squashfs init=/etc/preinit mtdparts=raspi:192k(u-boot),64k(u-boot-env),64k(factory),32448k(firmware),16384k(rootfs_data) mem=128M test_mode=disable"
+CONFIG_BOOTARGS="console=ttyS1,57600 root=/dev/mtdblock3 rootfstype=squashfs init=/etc/preinit mtdparts=raspi:192k(u-boot),64k(u-boot-env),64k(factory),32448k(firmware),16384k(rootfs_data) mem=128M test_mode=disable"
 CONFIG_SERVERIP="192.168.1.2"
 CONFIG_NETMASK="255.255.255.0"
 CONFIG_IPADDR="192.168.1.1"
