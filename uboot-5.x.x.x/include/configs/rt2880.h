@@ -69,7 +69,7 @@
  */
 #define	CFG_LONGHELP				/* undef to save memory      */
 
-#define	CFG_PROMPT		"MT7621 # "
+#define	CFG_PROMPT		"rtk-t => "
 
 #define	CFG_CBSIZE		256		/* Console I/O Buffer Size   */
 #define	CFG_PBSIZE (CFG_CBSIZE+sizeof(CFG_PROMPT)+16)  /* Print Buffer Size */
